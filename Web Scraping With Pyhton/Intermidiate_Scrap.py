@@ -13,7 +13,3 @@ review = soup.find_all('div',attrs={'class':'the_review'})
 for i in review:
     print("review:")
     print(i.get_text(),"\n")
-
-
-
-
