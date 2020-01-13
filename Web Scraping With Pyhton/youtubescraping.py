@@ -7,6 +7,6 @@ soup = bs4.BeautifulSoup(data.text, 'html.parser')
 for link in soup.find_all('a'):
     link = link.get("href")
     if link[0:3]=="/wa":
-        print("https://www.youtube.com/"+ link)
+        print("https://www.youtube.com"+ link)
 
-        
+
