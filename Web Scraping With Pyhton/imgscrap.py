@@ -27,4 +27,5 @@ for i in range(len(links)):
     filename = 'img{}.png' .format(i)
     urllib.request.urlretrieve(links[i], filename)
     print('done')
+    
 
