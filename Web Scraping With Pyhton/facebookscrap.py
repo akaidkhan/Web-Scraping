@@ -12,7 +12,7 @@ authentication_url = "http://mbasic.facebook.com/login.php"
 
 payload = {
 'email':"brainkhan0123@gmail.com",
-'pass' : ""
+'pass' : "amijaninabal123"
 
 }
 
